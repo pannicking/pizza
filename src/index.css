@@ -12,13 +12,17 @@ html {
 
 body {
   font-family: 'Roboto Mono', sans-serif;
-  color: #252525;
+  color: #f3f1f1;
   font-weight: 400;
   background-color: #f7f2e9;
   border-bottom: 1.6rem solid #edc84b;
   min-height: 100vh;
   padding: 3.2rem;
   padding-bottom: 6rem;
+  background-image: url('https://t3.ftcdn.net/jpg/02/96/69/22/360_F_296692203_k4lOpOt8mAcYpKzicNmJTpnsE9ZdwyHX.jpg');
+  background-size: cover; /* Ensure the background covers the entire body */
+  background-position: center; /* Keep the image centered */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
 }
 
 .container {
