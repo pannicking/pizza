@@ -118,8 +118,12 @@ body {
   width: 12rem;
   aspect-ratio: 1;
   align-self: start;
+  border-radius: 8px; /* Apply rounded corners */
+  transition: transform 0.3s ease; /* Smooth transition */
 }
-
+.pizza img:hover {
+    transform: scale(1.1); /* Scale the image by 10% */
+  }
 .pizza div {
   display: flex;
   flex-direction: column;
